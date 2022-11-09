@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 15083e3499026284cb028777d8ee38e0
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BasementMain.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BasementStart.unity
+    guid: 67296012786707b46986aef95e2b9935
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BasementEmpty.unity
+    guid: 2c971b875f192064e99f401ea8ed9c92
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BasementBasic1.unity
+    guid: 217a16b5a7c01ff45a6c5d4580d1f5af
+  - enabled: 1
+    path: Assets/Scenes/Rooms/BasementBoss.unity
+    guid: f8adb40824db3ca49843f2aadfe4d4d5
+  m_configObjects: {}
