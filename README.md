@@ -1,6 +1,6 @@
 # Unity 3D
  
- Uszkodzone Projekty, ponieważ github usunął pliki LFS, stan po próbie przywrócenia:
+ ##Uszkodzone Projekty, ponieważ github usunął pliki LFS, stan po próbie przywrócenia:
  TEBowska Platforma Gen.2 stan jakieś 85%
  TEBowski Horror          stan jakieś 95%
  The Binding of Glizdak   stan jakieś any% (było gównem i będzie gównem)
