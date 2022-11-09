@@ -1,15 +1,8 @@
 using Unity.Netcode;
 using UnityEngine;
 
-/// <summary>
-/// An example network serializer with both server and owner authority.
-/// Love Tarodev
-/// </summary>
 public class PlayerNetTransform : NetworkBehaviour
 {
-    /// <summary>
-    /// A toggle to test the difference between owner and server auth.
-    /// </summary>
     [SerializeField] private bool _serverAuth;
     [SerializeField] private float _cheapInterpolationTime = 0.1f;
 
