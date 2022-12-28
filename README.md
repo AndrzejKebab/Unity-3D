@@ -1,6 +1,6 @@
 # Unity 3D
  
- ## Uszkodzone Projekty, ponieważ github usunął pliki LFS:
+ ## Broken Projects because github removed the LFS files:
  - TEBowska Platforma Gen.2 
  - TEBowski Horror          
  - The Binding of Glizdak   
