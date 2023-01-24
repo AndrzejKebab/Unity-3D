@@ -25,7 +25,6 @@ public class Player : MonoBehaviour
 
 	void Start()
 	{
-		movement = InputManager.instance.GetMovement();
 		playerRB = GetComponent<Rigidbody2D>();
 		cam = Camera.main;
 
@@ -35,6 +34,7 @@ public class Player : MonoBehaviour
 
 	void Update()
 	{
+		cursorPos = InputManager.instance.GetMousePos();
 		Vector2 objPos = cam.WorldToScreenPoint(transform.position);
 		dir = (cursorPos - objPos).normalized;
 
@@ -45,6 +45,8 @@ public class Player : MonoBehaviour
 
 	void FixedUpdate()
 	{
+		movement = InputManager.instance.GetMovement();
+
 		playerRB.velocity = new Vector2( movement.x * moveSpeed, movement.y * moveSpeed);
 
 		float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
